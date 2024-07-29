@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 242, 237);
+}
+
+div.container {
+    padding: 10px 60px;
+    /* width: ; */
+    /* margin 0px; */
+}
+
+.navbar {
+    /* display: ; */
+    padding: 30px 0px;
+    display: flex;
+}
+
+.navbar .logo {
+    color: black;
+    font-size: 20px;
+    /* margin-left: 100px; */
+}
+.nav-list ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0px 90px;
+
+}
+.nav-list li {
+    float: left;
+}
+.nav-list li a {
+    float: right;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0px 50px;
+}
+
+.nav-buttons {
+    margin: 0px 0px;
+    float: right;
+    border: none;
+    text-decoration: none;
+    padding: 0px 0px;
+    justify-content: space-between;
+}
+
+.nav-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+}
+
+.nav-buttons .special-btn {
+    background-color: rgb(83, 31, 225);
+    color: white;
+    border-radius: 3px;
+}
+.intro-img {
+    /* display: block; */
+    margin-top: 0px;
+    top: 1;
+    bottom: 5;
+    width: 20px;
+    /* height: ; */
+}
+.intro-img img {
+    margin-top: -100px;
+    top: 0;
+    margin-left: 200px;
+    width: 500px;
+    height: 500px;
+    /* top: 20; */
+}
+
+.first-page {
+    display: flex;
+    /* justify-content:space-between; */
+    padding-top: 0px;
+    margin-top: 60px;
+}
+
+.text-area {
+    margin-top: 30px;
+    margin: 0px;
+}
+
+.intro-text h2 {
+    font-size: 40px;
+}
+
+.svg-icons {
+    display: flex;
+    padding: 0px 15px;
+}
+
+
+.svg-icons svg {
+    padding: 1px;
+    height: 20px;
+}
+
+.svg-icons p {
+    padding: 0px 10px;
+}
+
+.intro-text p {
+    color: grey;
+}
+
+.intro-buttons {
+    margin: 10px;
+}
+
+.intro-buttons button {
+    padding: 15px 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: rgb(83, 31, 225);
+    text-decoration: underline;
+}
+
+.intro-buttons .no-border {
+    background-color: rgb(83, 31, 225);
+    color: white;
+    text-decoration: none;
+}
+
+.pay-verifier {
+    display: flex;
+    /* justify-content: space-between */
+
+}
+
+.pay-verifier p {
+    padding: 10px;
+}
+
+.contain-two {
+    background-color: white;
+    padding: 90px 150px;
+}
+
+.heading h4 {
+    color: rgb(83, 31, 225);
+}
+
+.heading h4 {
+    font-weight: 800;
+}
+
+.heading-icon {
+    display: flex;
+    margin: 48px 18px;
+    justify-content: space-between;
+}
+
+.heading-icon svg {
+    margin: 13px 0px;
+}
+
+.heading-icon h6 {
+    font-weight: 400;
+}
+
+.heading-icon p {
+    color: rgb(72, 70, 70);
+}
+
+.realtor-pg {
+    /* position: relative; */
+    display: flex;
+    background-color: rgb(77,19,209);
+    border-radius: 10px;
+    /* padding: 60px 40px; */
+    color: white;
+    justify-content: space-between;
+}
+
+.word-content {
+    padding: 200px 80px;
+}
+
+.word-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.word-content p {
+    color: white;
+    font-size: 25px;
+    opacity: 80%;
+}
+
+.word-content button {
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    /* padding: 18px px; */
+    color: rgb(77,19,209);
+    font-weight: 400;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.img-content img {
+    width: 800px;
+    height: auto;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
