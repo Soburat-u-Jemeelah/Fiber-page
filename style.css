@@ -9,7 +9,7 @@ body {
 }
 
 div.container {
-    padding: 10px 60px;
+    padding: 10px 30px;
     /* width: ; */
     /* margin 0px; */
 }
@@ -186,17 +186,18 @@ div.container {
 }
 
 .word-content {
-    padding: 200px 80px;
+    margin-top: 150px;
+    margin-left: 40px;
 }
 
 .word-content h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .word-content p {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     opacity: 80%;
 }
 
@@ -213,9 +214,63 @@ div.container {
 }
 
 .img-content img {
-    width: 800px;
+    width: 700px;
     height: auto;
     bottom: 0px;
     margin-top: 50px;
-    margin-right: 50px;
+    margin-right: 60px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 5px;
+}
+
+.card-1 {
+    justify-items: baseline;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 5px;
+    width: 400px;
+    padding: 25px 25px;
+}
+
+.head-info {
+    display: flex;
+    justify-content: first baseline;
+    padding: 15px 0px;
+}
+
+.bio-info {
+    margin-left: 18px;
+
+}
+
+.bio-info p {
+    margin: 0;
+    /* margin-top: 0px; */
+    padding-top: 0px;
+}
+
+.bio-title {
+    color: rgb(77,19,209);
+    font-weight: 800;
+}
+
+.card-1 button {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: rgb(77,19,209);
+    font-weight: 800;
+    border-color: rgb(230, 225, 225);
+}
+
+footer {
+    background-color: rgb(246, 242, 237);
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 100px;
+}
+
