@@ -31,6 +31,9 @@ div.container {
     margin: 0px 90px;
 
 }
+.nav-list .com-float {
+    float: right;
+}
 .nav-list li {
     float: left;
 }
@@ -61,6 +64,10 @@ div.container {
     background-color: rgb(83, 31, 225);
     color: white;
     border-radius: 3px;
+}
+
+.menu-icon {
+    display: none;
 }
 .intro-img {
     /* display: block; */
@@ -272,5 +279,142 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 45px 100px;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        width: 100%;
+        margin: 0px;
+        /* padding: 0px 20px; */
+    }
+    div.navbar {
+        display: block;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .navbar .logo {
+        display: inline-block;
+    }
+    .nav-list li {
+        display: none;
+        float: left;
+        margin-inline-start: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    li a {
+        padding: 0px; 
+    }
+    .nav-list .com-float {
+        float: left;
+        /* display: b; */
+        left: 0;
+    }
+    .nav-buttons button {
+        display: none;
+        align-items: left;
+    }
+    .menu-icon {
+        display: block;
+        float: right;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .svg-icons {
+        display: none;
+    }
+
+    .intro-img img {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .contain-two {
+        display: block;
+        padding: 15px 30px;
+        margin: 0px 0px;
+    }
+
+    .heading-icon {
+        display: block;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .pay-verifier {
+        display: block;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .realtor-pg {
+        display: block;
+        padding: 25px 20px 0px 30px;
+        margin: 0px 0px;
+    }
+
+    .img-content {
+        padding: 20px 15px 0px 0px;
+    }
+
+    .img-content img {
+        width: 270px;
+        height: 350px;
+        bottom: 0px;
+        margin-top: 30px;
+        margin-right: 0px;
+        /* padding: 5px 15px; */
+    }
+
+    .word-content {
+        margin-top: 0px;
+        margin-left: 0px;
+        /* padding: 20px 15px; */
+    }
+
+    .word-content h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .word-content p {
+        color: white;
+        font-size: 20px;
+        opacity: 80%;
+    }
+    
+    .cards {
+        display: block;
+        justify-content: space-between;
+        margin: 0px 0px;
+        padding: 10px 30px;
+    }
+
+    .card-1 {
+        justify-items: baseline;
+        /* border: 1px solid black; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 10px 5px;
+        width: 300px;
+        padding: 15px 15px;
+    }
+
+    .card-1 button {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        margin-left: 15px;
+        color: rgb(77,19,209);
+        font-weight: 800;
+        border-color: rgb(230, 225, 225);
+    }
+
+    footer  {
+        display: block;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
 }
 
