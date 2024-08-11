@@ -18,6 +18,7 @@ div.container {
     display: flex;
     padding: 30px 0px;
     display: flex;
+    justify-content: space-between;
 }
 
 .navbar .logo {
@@ -27,7 +28,8 @@ div.container {
     /* margin: 0px 0px 0px 100px; */
 }
 .nav-list ul {
-    /* list-style-type: none; */
+    display: flex;
+    list-style-type: none;
     margin: 0px 0px;
 
 }
@@ -46,6 +48,7 @@ li.com-float {
 }
 
 .nav-buttons {
+    display: flex;
     margin: 0px 0px;
     float: right;
     border: none;
@@ -58,6 +61,7 @@ li.com-float {
     padding: 10px 15px;
     border: none;
     background: none;
+    margin-top: 0;
 }
 
 .nav-buttons .special-btn {
@@ -67,6 +71,12 @@ li.com-float {
 }
 
 .menu-icon {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.menu-icon i {
     display: none;
 }
 
@@ -315,6 +325,12 @@ footer {
     .nav-buttons button {
         display: none;
         align-items: left;
+    }
+    .menu-icon i {
+        display: block;
+        float: right;
+        padding: 0px 0px;
+        margin: 0px 0px;
     }
     .menu-icon {
         display: block;
